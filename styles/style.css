@@ -5,17 +5,259 @@
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
+    
 
 }
 
 
-.logo {
+header {
+    background: #012D63;
+    
     
 }
 
 
+
+.header-logo {
+    font-family: 'roboto';
+    
+    
+}
+
+.header-list {
+    display: flex;
+    gap: 29px;
+    
+
+}
+
+.header-nav {
+    display: flex;
+    gap: 152px;
+    align-items: center;
+   
+}
+
+.header-item {
+    color: #C7C7C7;
+
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+
+}
+
 .header-page {
-    font-family: 'Roboto';
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
 }
 
 
+
+
+.hero {
+   background-image: url(../img/airnike.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 91px;
+    padding-bottom: 183px;
+    padding-left: ;
+    
+}
+
+.hero-logo {
+    
+    
+}
+
+.hero-abr {
+color: #FFF;
+font-family: PT Serif;
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+
+
+}
+
+.hero-title {
+    color: #FFF;
+font-family: Playfair Display;
+font-size: 144px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+
+}
+
+.hero-subtitle {
+    color: #FFF;
+    font-family: Playfair Display;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 12px;
+   
+}
+
+.hero-text {
+    color: #FFF;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 41px;
+}
+
+.hero-button {
+color: #FFF;
+
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+background-color: purple;
+border-radius: 10px;
+background: #8E32C6;
+width: 254px;
+height: 67px;
+
+}
+
+.advantages {
+    background-image: url(../img/advantages.png);
+    background-repeat: no-repeat;
+    background-size: cover
+    
+    
+}
+
+.advantages-title {
+color: #FFF;
+text-align: center;
+font-family: Playfair Display;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.reviews {
+    color: #FFF;
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-image: url(../img/reviews.png);
+}
+
+
+
+.reviews-text {
+color: #FFF;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.reviews-subtext {
+ color: #D8D8D8;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.reviews-title {
+ color: #FFF;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.order {
+color: #FFF;
+font-family: Playfair Display;
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+background-image: url(../img/order.png);
+
+}
+
+.order-text {
+    color: #959595;
+font-family: Roboto;
+font-size: 28px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 690px;
+height: 60px;
+flex-shrink: 0;
+border-radius: 50px;
+background: #FFF;
+padding-top: 19px;
+}
+
+.order-button {
+color: #FFF;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+footer {
+    background-color: #021635;
+}
+
+.footer-text {
+ color: #FFF;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.footer-page {
+    color: #FFF;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-decoration-line: underline;
+}
+
+.footer-item {
+    color: #FFF;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
