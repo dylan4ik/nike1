@@ -1,33 +1,32 @@
 .container {
-    outline: solid red;
     width: 1140px;
     padding-left: 15px;
     padding-right: 15px;
-    margin-left:  auto;
+    margin-left: auto;
     margin-right: auto;
-    
+
 
 }
 
 
 header {
     background: #012D63;
-    
-    
+
+
 }
 
 
 
 .header-logo {
     font-family: 'roboto';
-    
-    
+
+
 }
 
 .header-list {
     display: flex;
     gap: 29px;
-    
+
 
 
 }
@@ -36,30 +35,30 @@ header {
     display: flex;
     gap: 152px;
     align-items: center;
-   
+
 }
 
 .header-item {
-color: #C7C7C7;
-font-family: Roboto;
-font-size: 24px;
-font-style: normal;
-font-weight: 300;
-line-height: normal;
-width: 112px;
-height: 30px;
-flex-shrink: 0;
-gap: 29px;
+    color: #C7C7C7;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    width: 112px;
+    height: 30px;
+    flex-shrink: 0;
+    gap: 29px;
 
 }
 
 .header-title {
     color: #FFF;
-font-family: Roboto;
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .header-page {
@@ -69,34 +68,59 @@ line-height: normal;
     font-style: normal;
     font-weight: 300;
     line-height: normal;
-    
+
 }
 
+.header-list1 {
+    display: flex;
+
+
+}
+
+.header-page1 {
+    color: #DCDCDC;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    display: flex;
+    width: 81px;
+    height: 30px;
+    flex-shrink: 0;
+
+}
+
+.header-item1 {
+    display: flex;
+    gap: 73px;
+
+}
 
 .hero {
-background-image: url(../img/airnike.png);
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
-padding-top: 91px;
-padding-bottom: 183px;
+    background-image: url(../img/airnike.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 91px;
+    padding-bottom: 183px;
 
-    
+
 }
 
 .hero-logo {
     margin-left: 170px;
-    
+
 }
 
 .hero-abr {
-color: #FFF;
-font-family: PT Serif;
-font-size: 48px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-margin-left: 195px;
+    color: #FFF;
+    font-family: PT Serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 195px;
 
 
 
@@ -104,309 +128,373 @@ margin-left: 195px;
 
 .hero-title {
     color: #FFF;
-font-family: 'Playfair Display';
-font-size: 144px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-margin-left: 156px;
+    font-family: 'Playfair Display';
+    font-size: 144px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 156px;
 
 
 }
 
 .hero-subtitle {
-color: #FFF;
-font-family: 'Playfair Display';
-font-size: 72px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-margin-bottom: 12px;
-margin-left: 164px;
-   
+    color: #FFF;
+    font-family: 'Playfair Display';
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 12px;
+    margin-left: 164px;
+
 }
 
 .hero-text {
     color: #FFF;
-font-family: 'Roboto';
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-margin-bottom: 41px;
-margin-left: 164px;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 41px;
+    margin-left: 164px;
 }
 
 .hero-button {
-color: #FFF;
+    color: #FFF;
 
-font-family: 'Roboto';
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-background-color: purple;
-border-radius: 10px;
-background: #8E32C6;
-width: 254px;
-height: 67px;
-margin-left: 164px;
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: purple;
+    border-radius: 10px;
+    background: #8E32C6;
+    width: 254px;
+    height: 67px;
+    margin-left: 164px;
 
 
 }
 
 .advantages {
-background-image: url(../img/advantages.png);
-background-repeat: no-repeat;
-background-size: cover;
-padding-top: 130px;
-padding-bottom: 130px;
-    
+    background-image: url(../img/advantages.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 130px;
+    padding-bottom: 130px;
+
 }
 
 .advantages-title {
-color: #FFF;
-text-align: center;
-font-family: 'Playfair Display';
-font-size: 36px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Playfair Display';
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 
 
 
 }
 
 .advantages-list {
-display: flex;
-justify-content: center;
-border:5px solid #8E32C6;
-align-items: center;
-padding-top: 25px;
-padding-bottom: 25px;
-    
+    display: flex;
+    justify-content: center;
+    border: 5px solid #8E32C6;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
 }
 
 .advantages-item {
-padding-top: 50px;
-padding-bottom: 50px;
-padding-left: 50px;
-padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 
 
 .reviews {
-color: #FFF;
-text-align: center;
-font-family: 'Playfair Display';
-font-size: 48px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-background-image:url(../img/flowers-reviews.png) ,url(../img/reviews.png);
-background-repeat: no-repeat;
-background-size: contain,cover;
-padding-top: 25px;
-padding-bottom: 114px;
-    
+    color: #FFF;
+    text-align: center;
+    font-family: 'Playfair Display';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-image: url(../img/flowers-reviews.png), url(../img/reviews.png);
+    background-repeat: no-repeat;
+    background-size: contain, cover;
+    padding-top: 25px;
+    padding-bottom: 114px;
+
 }
 
 .reviews-center {
-color: #FFF;
-text-align: center;
-font-family: Playfair Display;
-font-size: 48px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-padding-top: 25px;
-padding-bottom: 24px;
+    color: #FFF;
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 25px;
+    padding-bottom: 24px;
 
 }
 
 .reviews-text {
-color: #FFF;
-font-family: Roboto;
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 
 }
 
 .reviews-subtext {
- color: #D8D8D8;
-font-family: 'Roboto';
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-display: flex;
-justify-content: left;
+    color: #D8D8D8;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    justify-content: left;
 
 }
 
 .reviews-title {
- color: #FFF;
-font-family: 'Roboto';
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+    color: #FFF;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 
 }
 
 .reviews-subtitle {
     color: #D8D8D8;
-font-family: Roboto;
-font-size: 12px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 
-.reviews-item {
+.reviews-item1 {
     border-radius: 15px;
-background: linear-gradient(137deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.5%, #CC5EC2 100%);
-box-shadow: 0px 30px 0px -13px #533978, 0px 14px 0px -5px #7B54B2;
-height: 292px;
-width: 255px;
-padding-top: 49px;
-padding-left: 13px;
-padding-right: 14px;
-padding-bottom: 131px;
+    background: linear-gradient(137deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.5%, #CC5EC2 100%);
+    box-shadow: 0px 30px 0px -13px #533978, 0px 14px 0px -5px #7B54B2;
+    height: 292px;
+    width: 255px;
+    padding-top: 49px;
+    padding-left: 13px;
+    padding-right: 14px;
+    padding-bottom: 131px;
 
+
+}
+
+.reviews-item2 {
+    border-radius: 15px;
+    background: linear-gradient(137deg, #FF68B4 0%, #FF45E1 26.04%, #CE3AFF 62.84%, #8961FF 100%);
+    box-shadow: 0px 30px 0px -13px #61337C, 0px 14px 0px -5px #9159B1;
+    width: 255px;
+    height: 292px;
+    flex-shrink: 0;
+    padding-top: 49px;
+    padding-left: 13px;
+    padding-right: 14px;
+    padding-bottom: 131px;
+
+
+}
+
+.reviews-item3 {
+    border-radius: 15px;
+    background: linear-gradient(143deg, #FFE128 0%, #FF9B5C 30.21%, #FF8381 63.29%, #FF5489 100%);
+    box-shadow: 0px 30px 0px -13px #732F26, 0px 14px 0px -5px #B95A4C;
+    width: 255px;
+    height: 292px;
+    flex-shrink: 0;
+    padding-top: 49px;
+    padding-left: 13px;
+    padding-right: 14px;
+    padding-bottom: 131px;
 
 }
 
 .reviews-list {
-display: flex;
-gap: 93px;
-justify-content: center;
+    display: flex;
+    gap: 93px;
+    justify-content: center;
 
 
 }
 
 .order {
-color: #FFF;
-font-family: 'Playfair Display';
-font-size: 48px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-background-image: url(../img/order.png);
-padding-top: 21px;
-padding-bottom: 37px;
-margin-right: auto;
-margin-left: auto;
-background-repeat: no-repeat;
-background-size: cover;
-display: flex;
-justify-content: center;
-align-items: center;
+    color: #FFF;
+    font-family: 'Playfair Display';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-image: url(../img/order.png);
+    padding-top: 21px;
+    padding-bottom: 37px;
+    margin-right: auto;
+    margin-left: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 
 
 }
 
 .order-item {
-   padding-top: 12px;
-   padding-bottom: 19px;
+    padding-top: 12px;
+    padding-bottom: 19px;
     margin-right: 25px;
     display: flex;
     justify-content: center;
 }
 
 .order-center {
-display: flex;
-justify-content: center;
-color: #FFF;
-font-family: Playfair Display;
-font-size: 48px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-padding-top: 21px;
-padding-bottom: 33px;
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+    font-family: Playfair Display;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 21px;
+    padding-bottom: 33px;
 
 }
 
 .order-text {
-color: #959595;
-font-family: 'Roboto';
-font-size: 28px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-width: 690px;
-height: 60px;
-flex-shrink: 0;
-border-radius: 50px;
-background: #FFF;
+    color: #959595;
+    font-family: 'Roboto';
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 690px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #FFF;
+
 
 }
 
 .order-button {
-color: #FFF;
-font-family: 'Roboto';
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-border-radius: 16px;
-background: #8E32C6;
-width: 248px;
-height: 68px;
-flex-shrink: 0;
-display: flex;
-justify-content: center;
-align-items: center;
-margin: auto;
+    color: #FFF;
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 16px;
+    background: #8E32C6;
+    width: 248px;
+    height: 68px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
 
 }
 
 footer {
-background-color: #021635;
-padding-top: 45px;
-padding-bottom: 50px;
-padding-right: 165px;
-padding-left: 164px;
-    
+    background-color: #021635;
+    padding-top: 45px;
+    padding-bottom: 50px;
+
 }
 
 .footer-text {
- color: #FFF;
-font-family: 'Roboto';
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-margin-right: 165px;
+    color: #FFF;
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 165px;
 
 }
 
 .footer-page {
     color: #FFF;
-font-family: Roboto;
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-text-decoration-line: underline;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
 
 }
 
 .footer-item {
-color: #FFF;
-font-family: 'Roboto';
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-display: flex;
-justify-content: space-between;
-gap: 44px;
+    color: #FFF;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    justify-content: space-between;
+    gap: 44px;
+    padding-bottom: 10px;
+
+}
+
+.footer-text1 {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.footer-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.footer-img {
+    display: flex;
+
+
+}
+
+.footer-text2 {
+    color: #FFF;
+    font-family: PT Serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 56px;
+    padding-bottom: auto;
 
 }
