@@ -278,6 +278,7 @@ header {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    
 
 }
 
@@ -339,6 +340,13 @@ header {
     gap: 93px;
     justify-content: center;
 
+
+}
+
+.reviews-img {
+    display: flex;
+    justify-content: right;
+    padding-top: 47px;
 
 }
 
